@@ -11,6 +11,7 @@
       <class name="com.testngproject.scripts.Test3"/>
       <class name="com.testngproject.scripts.Test4"/>
       <class name="com.testngproject.scripts.Test2"/>
+      <class name="com.testngproject.scripts.Test5"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
