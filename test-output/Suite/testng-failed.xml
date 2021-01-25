@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test_firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testngproject.scripts.Test1">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="aatest"/>
+          <include name="atest"/>
+          <include name="confifAfterClass"/>
+        </methods>
+      </class> <!-- com.testngproject.scripts.Test1 -->
+      <class name="com.testngproject.scripts.Test2">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="confifAfterClass"/>
+          <include name="btest"/>
+        </methods>
+      </class> <!-- com.testngproject.scripts.Test2 -->
+      <class name="com.testngproject.scripts.Test3">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="confifAfterClass"/>
+          <include name="ctest"/>
+        </methods>
+      </class> <!-- com.testngproject.scripts.Test3 -->
+    </classes>
+  </test> <!-- Test_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
